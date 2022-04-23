@@ -7,7 +7,7 @@ def get_qrcode(url="https://google.com", name='default'):
 	return f'QR code was created!Open the {name}.png'
 
 def main():
-	print(get_qrcode(url="htpps://krsoctech.tmweb.ru",name="сайт техникума"))
+	print(get_qrcode(url="https://t.me/printcod",name="my_telegramm"))
 
 if __name__=="__main__":
 	main()
